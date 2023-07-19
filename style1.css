@@ -11,4 +11,14 @@ p.card-text{
     font-size: large;
     letter-spacing: 10px;
 }
-
+body{
+    margin: 0;
+    background-color: red;
+    
+    
+}
+.p{
+    background-color: orange;
+    height:  400px;
+    width: 200px;
+}

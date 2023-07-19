@@ -58,6 +58,9 @@ header{
 .logo{
     margin-top: 2rem !important;
 }
+.footer-item2{
+    white-space: nowrap;
+}
 @media  (max-width:1000px) {
 /*Ici le css s'appliquera aux écrans de 600px minimum*/ 
 .footer{
