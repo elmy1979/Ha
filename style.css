@@ -1,84 +1,291 @@
-.section{
-    margin:0 !important;
-    margin-top: 2rem !important;
-}
-header{
-    position: sticky;
-    top: 0.1px;
-    z-index: 99;
-}
-.fixemargin{
-    margin-top: auto !important;
-    margin-bottom: 1rem;
-}
-.item1{
-    width: 150px;
-    margin-left: 2rem;
-}
-.item2{
-    padding:0.5rem;
-    text-align: center;
-    min-height:340px;
-}
-.footer{
-    background-color:#de8787;
-    padding: 1px;
-    margin-top: 5rem;
-}
-.footer-item{
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-right:2rem;
-}
-.footer1{
-    text-align: end;
-    padding-top: 1.1rem;
-
-
-
-
-}
-.logos{
-    width: 50px;
-    margin-left: 1.5rem;
-
-}
+@media  (max-width:600px) {
+    .imgCar {
+        height: 300px;
+    }
+    .section{
+        margin:0 !important;
+        margin-top: 2rem !important;
+    }
+    header{
+        position: sticky;
+        top: 0.1px;
+        z-index: 99;
+    }
+    .fixemargin{
+        margin-top: auto !important;
+        margin-bottom: 1rem;
+    }
+    .item1{
+        width: 150px;
+        margin-left: 2rem;
+    }
+    .item2{
+        padding:0.5rem;
+        text-align: center;
+        min-height:340px;
+        margin-top: 1rem;
+    }
+    .footer{
+        background-color:#de8787;
+        padding: 1px;
+        margin-top: 5rem;
+    }
+    .footer-item{
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer1{
+        text-align: end;
+        padding-top: 1.1rem;
     
     
-
-
-
-.fixemargin2{
-    margin: 0 !important;
-}
-.image{
-    text-align: center;
-}
-.logo{
-    margin-top: 2rem !important;
-}
-.footer-item2{
-    white-space: nowrap;
-}
-@media  (max-width:1000px) {
-/*Ici le css s'appliquera aux écrans de 600px minimum*/ 
-.footer{
-    height: unset !important;
-}
-.footer1{
-    margin-bottom: 2rem;
-}
-.resp{
-    margin-right: 1rem !important;
-}
-.footer-item{
-    margin: 0 !important;
-    margin-right: 0.7rem !important;
-}
-.logos{
-    margin-left: 0.5rem !important;
-}
+    
+    
+    }
+    .descriptions {
+        min-height: 250px;
+        margin-top: 1rem;
+    }
+    .logos{
+        width: 40px;
+        margin-left: 1.5rem;
+    
+    }
+        
+        
+    
+    
+    
+    .fixemargin2{
+        margin: 0 !important;
+    }
+    .image{
+        text-align: center;
+    }
+    .logo{
+        margin-top: 2rem !important;
+    }
+    .footer-item2{
+        white-space: nowrap;
+    } 
 }
 
-
+@media  (max-width: 1000px) and (min-width: 601px) {
+    .imgCar {
+        height: 350px !important;
+    }
+    .section{
+        margin:0 !important;
+        margin-top: 2rem !important;
+    }
+    header{
+        position: sticky;
+        top: 0.1px;
+        z-index: 99;
+    }
+    .fixemargin{
+        margin-top: auto !important;
+        margin-bottom: 1rem;
+    }
+    .item1{
+        width: 150px;
+        margin-left: 2rem;
+    }
+    .item2{
+        padding:0.5rem;
+        text-align: center;
+        min-height:340px;
+        margin-top: 1rem;
+    }
+    .footer{
+        background-color:#de8787;
+        padding: 1px;
+        margin-top: 5rem;
+    }
+    .footer-item{
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer1{
+        text-align: end;
+        padding-top: 1.1rem;
+    
+    
+    
+    
+    }
+    .descriptions {
+        min-height: 250px !important;
+        margin-top: 1rem;
+    }
+    .logos{
+        width: 40px;
+        margin-left: 0.5rem;
+    
+    }
+        
+        
+    
+    
+    
+    .fixemargin2{
+        margin: 0 !important;
+    }
+    .image{
+        text-align: center;
+    }
+    .logo{
+        margin-top: 2rem !important;
+    }
+    .footer-item2{
+        white-space: nowrap;
+    } 
+}
+@media   (max-width: 1255px) and (min-width: 1000px) {
+    .imgCar {
+        height: 450px !important;
+    }
+    .section{
+        margin:0 !important;
+        margin-top: 2rem !important;
+    }
+    header{
+        position: sticky;
+        top: 0.1px;
+        z-index: 99;
+    }
+    .fixemargin{
+        margin-top: auto !important;
+        margin-bottom: 1rem;
+    }
+    .item1{
+        width: 150px;
+        margin-left: 2rem;
+        white-space: nowrap;
+    }
+    .item2{
+        padding:0.5rem;
+        text-align: center;
+        min-height:340px;
+        margin-top: 1rem;
+    }
+    .footer{
+        background-color:#de8787;
+        padding: 1px;
+        margin-top: 5rem;
+    }
+    .footer-item{
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer1{
+        text-align: end;
+        padding-top: 1.1rem;
+    
+    
+    
+    
+    }
+    .descriptions {
+        min-height: 650px ;
+        margin-top: 1rem;
+    }
+    .logos{
+        width: 40px;
+        margin-left: 1.5rem;
+    
+    }
+        
+        
+    
+    
+    
+    .fixemargin2{
+        margin: 0 !important;
+    }
+    .image{
+        text-align: center;
+    }
+    .logo{
+        margin-top: 2rem !important;
+    }
+    .footer-item2{
+        white-space: nowrap;
+    } 
+}
+@media   (max-width: 3000px) and (min-width: 1260px) {
+    .imgCar {
+        height: 450px !important;
+    }
+    .section{
+        margin:0 !important;
+        margin-top: 2rem !important;
+    }
+    header{
+        position: sticky;
+        top: 0.1px;
+        z-index: 99;
+    }
+    .fixemargin{
+        margin-top: auto !important;
+        margin-bottom: 1rem;
+    }
+    .item1{
+        width: 150px;
+        margin-left: 2rem;
+        white-space: nowrap;
+    }
+    .item2{
+        padding:0.5rem;
+        text-align: center;
+        min-height:340px;
+        margin-top: 1rem;
+    }
+    .footer{
+        background-color:#de8787;
+        padding: 1px;
+        margin-top: 5rem;
+    }
+    .footer-item{
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .footer1{
+        text-align: end;
+        padding-top: 1.1rem;
+    
+    
+    
+    
+    }
+    .descriptions {
+        min-height: 350px;
+        margin-top: 1rem;
+    }
+    .logos{
+        width: 40px;
+        margin-left: 1.5rem;
+    
+    }
+        
+        
+    
+    
+    
+    .fixemargin2{
+        margin: 0 !important;
+    }
+    .image{
+        text-align: center;
+    }
+    .logo{
+        margin-top: 2rem !important;
+    }
+    .footer-item2{
+        white-space: nowrap;
+    } 
+}

@@ -1,24 +1,13 @@
-.item3{
-    padding: 0.5rem;
-    text-align: center;
-    min-height: 300px;
-}
-p.card-text{
+p{
+    background-color: beige;
     font-weight: bold;
-    color: black;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
-    font-size: large;
-    letter-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    margin: 0;
-    background-color: red;
-    
-    
+.footer{
+    background-color:#de8787;
+    padding: 1px;
+    margin-top: 5rem;
 }
-.p{
-    background-color: orange;
-    height:  400px;
-    width: 200px;
+.footer-item2{
+    white-space: nowrap;
 }
